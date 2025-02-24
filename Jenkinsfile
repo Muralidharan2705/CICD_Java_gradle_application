@@ -19,15 +19,5 @@ pipeline{
             
         }
     }
-    post{
-        always{
-            echo "Success"
-        }
-        success{
-            echo "========pipeline executed successfully ========"
-        }
-        failure{
-            echo "========pipeline execution failed========"
-        }
-    }
+ }
 }
