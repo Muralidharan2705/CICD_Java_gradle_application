@@ -7,8 +7,6 @@ pipeline{
                     image 'openjdk:11'
                 }
              }
-             
-            
-        }
+          }
    }
  }
