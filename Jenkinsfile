@@ -8,5 +8,9 @@ pipeline{
                 }
              }
           }
+          steps{
+                
+                echo "========executing A========"
+             }
    }
  }
